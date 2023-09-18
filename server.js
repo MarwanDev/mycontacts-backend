@@ -13,7 +13,7 @@ app.use("/api/contacts", require("./routes/contactRoutes"));
 // app.use("/api/contacts", (req, res) => {
 //   res.send("Get all contacts");
 // });
-// app.use("/api/users", require("./routes/userRoutes"));
+app.use("/api/users", require("./routes/userRoutes"));
 // app.use(errorHandler);
 
 app.listen(port, () => {
